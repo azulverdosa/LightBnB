@@ -7,7 +7,7 @@
 SELECT properties.id AS id, title, cost_per_night, AVG(rating) as average_rating
 FROM properties
 JOIN property_reviews ON property_id = properties.id
-WHERE city LIKE '%ancouv%'
+WHERE city LIKE '%Vancouver%'
 GROUP BY properties.id
 HAVING AVG(rating) >= 4
 ORDER BY cost_per_night

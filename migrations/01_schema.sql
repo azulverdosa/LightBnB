@@ -20,8 +20,8 @@ CREATE TABLE properties (
   cover_photo_url VARCHAR(225) NOT NULL,
   parking_spaces INT NOT NULL,
   cost_per_night INT NOT NULL DEFAULT 0,
-  number_of_baths INT NOT NULL DEFAULT 0,
-  number_of_beds INT NOT NULL DEFAULT 0,
+  number_of_bathrooms INT NOT NULL DEFAULT 0,
+  number_of_bedrooms INT NOT NULL DEFAULT 0,
 
   country VARCHAR(225) NOT NULL,
   street VARCHAR(225) NOT NULL,
